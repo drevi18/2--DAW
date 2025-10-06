@@ -8,7 +8,7 @@ const mostrarTabla = (event) => {
         tablaMultiplicar += '<ul>';
 
         for (let i = 0; i <= 10; i++) {
-            tablaMultiplicar += `<li>${numero} * ${i} = ${numero * i}</li>`;
+            tablaMultiplicar += `<li>$  ${i} / ${numero} = ${i / numero }</li>`;
         }
 
         tablaMultiplicar += '</ul>';
