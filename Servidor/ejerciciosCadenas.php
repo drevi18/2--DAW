@@ -44,13 +44,13 @@
             if ($consecVocal == 3 || $consecCons == 3) {
                 echo "No puede tener tres vocales o consonantes consecutivas.<br>";
                 $segura = false;
-                break;
+
             }
         
             if ($i > 0 && $char == $contra[$i - 1] && !($char == 'e' || $char == 'o')) {
                 echo "No puede tener dos letras iguales seguidas, salvo 'ee' o 'oo'.<br>";
                 $segura = false;
-                break;
+
             }
         }
 
